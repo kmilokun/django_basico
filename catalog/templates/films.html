@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Films</h1>
+
+  <p>There some films I like.</p>
+
+<h2>Dynamic content</h2>
+
+  <p>The library has the following films:</p>
+  <ul>
+    <li><strong>Films:</strong> {{ num_films }}</li>
+
+  </ul>
+
+{% endblock %}
